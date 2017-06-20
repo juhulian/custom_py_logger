@@ -2,7 +2,7 @@
 yet a other wrapper for python-print ;-)
 
 ```python
-    from mylogger import logger
+    from custome_py_logger import logger
 
     class MyClass:
          def __init__(self):
