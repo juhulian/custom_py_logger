@@ -6,6 +6,6 @@ yet a other wrapper for python-print ;-)
 
     class MyClass:
          def __init__(self):
-             self.log = logger.Log(self.class__.__name__)
+             self.log = logger.Log(self.__class__.__name__)
              self.log.info("hello")
 ```
