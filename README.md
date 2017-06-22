@@ -13,6 +13,7 @@ yet a other wrapper for python2-print ;-)
 
     class MyClass:
          def __init__(self):
-             self.log = logger.Log(self.__class__.__name__)
-             self.log.info("hello")  # 18:41:04 MyClass [i] hello
+             self.log = logger.Log(self.__class__.__name__, level=1)
+             self.log.debug("hello")  #
+             self.log.info2("hello")  # 18:41:04 MyClass [i] hello
 ```
