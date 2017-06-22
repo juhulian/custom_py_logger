@@ -7,10 +7,10 @@ class Log:
     simple logger
     """
 
-    time_format = "%H:%M:%S"  # %Y-%m-%d %H:%M:%S
 
-    def __init__(self, name="", level=0):
+    def __init__(self, name="", time_format="%H:%M:%S", level=0):
         self.name = name
+        self.time_format = time_format  # %Y-%m-%d %H:%M:%S
         self.level = level
         if self.level > 0:
             self.debug = self._disabled
