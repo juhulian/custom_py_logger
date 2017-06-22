@@ -1,4 +1,4 @@
-class bcolors:
+class Bcolors:
     """from https://stackoverflow.com/questions/287871/print-in-terminal-with-colors-using-python"""
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
